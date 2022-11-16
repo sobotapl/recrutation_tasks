@@ -7,8 +7,10 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Podaj ciag znaków: ");
-        System.out.println(encode(sc.nextLine().toUpperCase()));
+        do {
+            System.out.println("Podaj ciag znaków: ");
+            System.out.println(encode(sc.nextLine().toUpperCase()));
+        }while(!(sc.nextLine().equals("exit")));
 
     }
 

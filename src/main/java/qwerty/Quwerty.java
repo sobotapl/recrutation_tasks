@@ -1,10 +1,13 @@
 package qwerty;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Quwerty {
 
     public static final Map<String, String> map = new HashMap();
+
 
     static {
         map.put("A", "2");
